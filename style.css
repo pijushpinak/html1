@@ -1,0 +1,259 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #808080;
+}
+#main{
+	width: 900px;
+	height: 1250px;
+	margin: 40px auto;
+	background: white;
+	overflow: ;
+}
+header{
+	border-bottom: 1px solid;
+	position: relative;
+}
+header > .logo{
+	content: url("apijush.jpg");
+	position: absolute;
+	left: -20px;
+	bottom: -36px;
+	width: 150px;
+	height: 120px;
+	border-radius: 50%;
+}
+header > h1{
+	color: #757475;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-left: 340px;
+	border-left: 1px solid black;
+	padding: 30px 0px 10px 45px;
+	text-shadow: 1px 1px 0px black;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+header > p{
+	color: #757475;
+	text-transform: uppercase;
+	position: absolute;
+	right: 5px;
+	top: 48px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+aside{
+	width: 340px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+nav{
+	margin: 40px 0px;
+}
+aside > nav ul{
+	list-style: none;
+	
+}
+aside > nav ul li{
+	
+	margin-top: 3px;
+	
+}
+aside > nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 12px 12px 12px 25px;
+	border-radius: 8px;
+	font-size: 19px;
+	background: #657183;
+}
+aside> nav ul li:nth-child(2) a{
+	background: #72888D;	
+}
+aside> nav ul li:nth-child(3) a{
+	background: #758874;
+}
+aside> nav ul li:nth-child(4) a{
+	background: #929374;
+}
+.two{
+	color: #919372;
+	font-size: 23px;
+	text-transform: uppercase;
+	text-align: right;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 0px black;
+	margin-bottom: 20px;
+}
+.sub{
+	color: #B57400;
+}
+.color{
+	color: white;
+	display: block;
+	background: #919373;
+	text-align: right;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding: 3px;
+	
+}
+.fix{
+	background: #B67400;
+}
+.one > h3{
+	margin: 20px 30px;
+	color:#909672;
+	font-weight: normal;
+	font-size: 22px;
+}
+.one > p{
+	margin: 20px 30px;
+	text-align: justify;
+	margin-bottom: 40px;
+}
+
+/*.........Right Side..........*/
+
+.right{
+	padding: 0px;
+	margin: 0px;
+	width: 550px;
+	float: right;
+	height: 1250px;
+	margin-left: 10px;
+}
+.right > p{
+	margin: 20px 50px 20px 35px;
+	line-height: 30px;
+}
+.box{
+	background: #877C52;
+	padding: 20px;
+	margin-left: 80px;
+	overflow: hidden;
+}
+.box i{
+	display: block;
+	padding-bottom: 10px;
+	color: white;
+	
+}
+.widgets{
+	margin-left: 35px;
+	overflow: ;
+	
+}
+.widgets > h1{
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 3px;
+	color: #68788A;
+	padding: 30px 0px;
+	text-shadow: 2px 2px 2px #68788A;
+}
+.top{
+	margin-bottom: 20px;
+	padding: 0px;
+	width: 500px;
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+.top> h2{
+	text-align: center;
+	background: #68778A;
+	padding: 10px 0px;
+	color: white;
+}
+.top> h3{
+	width: 150px;
+	float: left;
+	outline: 2px solid #808080;
+	outline-offset: 2PX;
+	background: #68778A;
+	margin-top: 122px;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+	padding: 5px;
+}
+.top img{
+	position:absolute;
+	width: 150px;
+	top: -3px;
+	left: 0px;
+	border-radius: 50%;
+}
+.top> p{
+	width: 320px;
+	float: right;
+	text-align: justify;
+	line-height: 25px;
+	margin-left: 5px;
+	margin-top: 10px;
+	
+}
+
+
+.bottom{
+	margin-top: 40px;
+	overflow: hidden;
+	display: block;
+}
+.bottom > h2{
+	text-align: center;
+	background: #68778A;
+	padding: 10px 0px;
+	color: white;
+}
+.bottom > h3{
+	width: 150px;
+	float: left;
+	outline: 2px solid #808080;
+	outline-offset: 2PX;
+	background: #68778A;
+	margin-top: 122px;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	font-size: 15px;
+	padding: 5px;
+}
+.bottom img{
+	position:absolute;
+	width: 150px;
+	top: 0px;
+	left: 0px;
+	border-radius: 50%;
+}
+.bottom > p{
+	width: 320px;
+	float: right;
+	text-align: justify;
+	line-height: 25px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
